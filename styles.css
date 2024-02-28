@@ -1,0 +1,94 @@
+/* Estilo para o corpo da página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura do corpo para ocupar 100% da altura da viewport */
+    margin: 0; /* Remove as margens padrão */
+    background-color: #ffffff; /* Define a cor de fundo como branco (#ffffff) */
+}
+.drum-kit {
+    display: flex;
+    gap: 10px;
+}
+
+.key {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.key kbd {
+    font-size: 24px;
+}
+
+.sound {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.key img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5px;
+}
+
+img {
+    transition: transform 0.2s ease-in-out; /* Adiciona transição suave */
+}
+
+/* Estilize a classe key para que as imagens estejam posicionadas */
+.key {
+    position: relative; /* Permite posicionar as imagens dentro das keys */
+}
+
+/* Ajuste a posição das imagens */
+#img65 { /*HIHAT*/
+    position: absolute; /* Posiciona a imagem absolutamente dentro da key */
+    margin-bottom: 300%;
+    top: -40%; /* Alinha a imagem no topo da key */
+    left: 10; /* Alinha a imagem à esquerda da key */
+    right: 30px;
+    z-index: 1; /* Define a ordem de empilhamento da imagem */
+}
+
+/* Ajuste a posição das imagens */
+#img83 { /*SNARE*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    margin-bottom: -300px;
+    left: -400%; /* Alinha a imagem à esquerda da key */
+    z-index: 0; /* Define a ordem de empilhamento da imagem */
+    
+}
+/* Ajuste a posição das imagens */
+#img69 { /*Tom1*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    top: -200%; /* Alinha a imagem no topo da key */
+    left: -80%; /* Alinha a imagem à esquerda da key */
+    z-index: 10; /* Define a ordem de empilhamento da imagem */
+}
+
+/* Ajuste a posição das imagens */
+#img66 { /*BASS*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    width: 280px;
+    top: 10; /* Alinha a imagem no topo da key */
+    left: -220%; /* Alinha a imagem à esquerda da key */
+    z-index: 0; /* Define a ordem de empilhamento da imagem */
+    
+}
+/* Ajuste a posição das imagens */
+#img82 { /*RIDE*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    width: 200px;
+    top: 10; /* Alinha a imagem no topo da key */
+    left: -290%; /* Alinha a imagem à esquerda da key */
+    z-index: 0; /* Define a ordem de empilhamento da imagem */
+    
+}
+
