@@ -28,15 +28,19 @@
             <img id="img82" src="img/Ride.png" alt="">
             <span class="sound"></span> <!--RIDE--> 
         </div>
-
+        <div data-key="85" class="key">
+            <img id="img85" src="img/FloorTom.png">
+            <span class="sound"></span> <!--FLOOR TOM--> 
+        </div>
         <!-- Arquivos de som -->
         <audio data-key="83" src="sounds/snare.mp3"></audio>  <!--S--> 
         <audio data-key="65" src="sounds/hi-hat-closed.wav"></audio> <!--A--> 
         <audio data-key="69" src="sounds/tom1.mp3"></audio> <!--E--> 
         <audio data-key="66" src="sounds/bumbo.wav"></audio> <!--B--> 
         <audio data-key="82" src="sounds/Ride.wav"></audio> <!--R--> 
+        <audio data-key="85" src="sounds/floortom.wav"></audio> <!--U--> 
     </div>
-
+    
     <script src="script.js"></script>
     <script>
         // Adiciona um evento de teclado ao documento para quando a tecla é pressionada
@@ -44,7 +48,7 @@
             // Obtém o código da tecla pressionada
             const key = event.keyCode;
             // Verifica se a tecla pressionada corresponde a uma das teclas da bateria virtual
-            if (key === 65 || key === 83 || key === 69 || key === 66|| key === 82) {
+            if (key === 65 || key === 83 || key === 69 || key === 66|| key === 82 || key === 85) {
                 // Obtém o ID da imagem correspondente à tecla pressionada
                 const imgId = 'img' + key;
                 // Chama a função zoomIn passando o ID da imagem
@@ -57,7 +61,7 @@
             // Obtém o código da tecla solta
             const key = event.keyCode;
             // Verifica se a tecla solta corresponde a uma das teclas da bateria virtual
-            if (key === 65 || key === 83 || key === 69 || key === 66|| key === 82) {
+            if (key === 65 || key === 83 || key === 69 || key === 66|| key === 82|| key === 85) {
                 // Obtém o ID da imagem correspondente à tecla solta
                 const imgId = 'img' + key;
                 // Chama a função zoomOut passando o ID da imagem
