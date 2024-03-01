@@ -1,35 +1,35 @@
-# Bateria Virtual 1.0
+# Virtual Drums 1.0
 
-## Descrição
-Este é um projeto de uma bateria virtual simples, desenvolvida utilizando HTML, CSS e JavaScript. A aplicação permite tocar diferentes sons de bateria ao pressionar teclas específicas no teclado.
+## Description
+This is a simple virtual battery project, developed using HTML, CSS and JavaScript. The application allows you to play different drum sounds by pressing specific keys on the keyboard.
 
-## Teclas de Atalho
-Tecla A: Closed Hi-Hat
-Tecla S: Snare
-Tecla E: High Tom
-Tecla B: Bass
-Tecla R: Ride
+## Hotkeys
+Key A: Closed Hi-Hat
+S Key: Snare
+E Key: High Tone
+B key: Bass
+R Key: Ride
 
-##  Como Utilizar
-Clone ou baixe este repositório em seu ambiente local.
-Abra o arquivo index.html em um navegador da web.
-Pressione as teclas correspondentes para reproduzir os sons da bateria.
-Observe o efeito de zoom nas imagens associadas a cada tecla ao pressionar e soltar a tecla.
+##  How to use
+Clone or download this repository to your local environment.
+Open the index.html file in a web browser.
+Press the corresponding keys to play drum sounds.
+Notice the zoom effect on the images associated with each key when you press and release the key.
 
-##  Estrutura do Projeto
-index.html: Contém a estrutura HTML da página.
-styles.css: Estiliza a aparência da página.
-script.js: Implementa a lógica de reprodução de sons e efeito de zoom em imagens.
+## Project Structure
+index.html: Contains the HTML structure of the page.
+styles.css: Styles the appearance of the page.
+script.js: Implements the logic for playing sounds and zooming effects on images.
 
-## Arquivos de Som
-snare.mp3: Som da caixa (snare).
-hi-hat-closed.wav: Som do prato fechado (closed hi-hat).
-tom1.mp3: Som do tom alto (high tom).
-bumbo.wav: Som do bumbo da bateria (bass).
-Ride.wav: Som do prato Ride.
+## Sound Files
+snare.mp3: Snare sound.
+hi-hat-closed.wav: Closed hi-hat sound.
+tom1.mp3: High tone sound.
+bumbo.wav: Sound of the kick drum (bass).
+Ride.wav: Ride cymbal sound.
 
-# Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar pull requests para melhorias.
+# Contribution
+Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
 
-## Autor
-Este projeto foi desenvolvido por Kevin Reys
+## Author
+This project was developed by Kevin Reys
