@@ -4,7 +4,7 @@
 This is a simple virtual battery project, developed using HTML, CSS and JavaScript. The application allows you to play different drum sounds by pressing specific keys on the keyboard.
 
 ## Hotkeys
-Key A: Closed Hi-Hat <br>
+A Key: Closed Hi-Hat <br>
 S Key: Snare <br>
 E Key: High Tone <br>
 B key: Bass <br>
