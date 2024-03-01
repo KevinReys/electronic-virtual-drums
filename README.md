@@ -1,4 +1,4 @@
-# Virtual Drums 1.0
+# Eletronic Virtual Drums 1.0
 
 ## Description
 This is a simple virtual battery project, developed using HTML, CSS and JavaScript. The application allows you to play different drum sounds by pressing specific keys on the keyboard.
