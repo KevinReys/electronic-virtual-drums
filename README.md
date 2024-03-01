@@ -7,8 +7,9 @@ This is a simple virtual battery project, developed using HTML, CSS and JavaScri
 A Key: Closed Hi-Hat <br>
 S Key: Snare <br>
 E Key: High Tone <br>
-B key: Bass <br>
+B Key: Bass <br>
 R Key: Ride <br>
+U Key: Floor tom
 
 ##  How to use
 Clone or download this repository to your local environment.
