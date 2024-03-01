@@ -47,6 +47,12 @@ img {
     position: relative; /* Permite posicionar as imagens dentro das keys */
 }
 
+
+
+
+
+
+
 /* Ajuste a posição das imagens */
 #img65 { /*HIHAT*/
     position: absolute; /* Posiciona a imagem absolutamente dentro da key */
@@ -58,13 +64,15 @@ img {
 }
 
 /* Ajuste a posição das imagens */
-#img83 { /*SNARE*/
+#img66 { /*BASS*/
     position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
-    margin-bottom: -300px;
-    left: -400%; /* Alinha a imagem à esquerda da key */
+    width: 280px;
+    top: 10; /* Alinha a imagem no topo da key */
+    left: -220%; /* Alinha a imagem à esquerda da key */
     z-index: 0; /* Define a ordem de empilhamento da imagem */
     
 }
+
 /* Ajuste a posição das imagens */
 #img69 { /*Tom1*/
     position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
@@ -74,21 +82,27 @@ img {
 }
 
 /* Ajuste a posição das imagens */
-#img66 { /*BASS*/
-    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
-    width: 280px;
-    top: 10; /* Alinha a imagem no topo da key */
-    left: -220%; /* Alinha a imagem à esquerda da key */
-    z-index: 0; /* Define a ordem de empilhamento da imagem */
-    
-}
-/* Ajuste a posição das imagens */
 #img82 { /*RIDE*/
     position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
-    width: 200px;
-    top: 10; /* Alinha a imagem no topo da key */
-    left: -290%; /* Alinha a imagem à esquerda da key */
+    left: -280%; /* Alinha a imagem à esquerda da key */
     z-index: 0; /* Define a ordem de empilhamento da imagem */
-    
 }
+
+/* Ajuste a posição das imagens */
+#img83 { /*SNARE*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    margin-bottom: -300px;
+    left: -400%; /* Alinha a imagem à esquerda da key */
+    z-index: 0; /* Define a ordem de empilhamento da imagem */ 
+}
+
+/* Ajuste a posição das imagens */
+#img85 { /*FLOOR TOM*/
+    position: absolute; /* Permite posicionar a imagem absolutamente dentro da key */
+    margin-bottom: -300px;
+    left: -300%; /* Alinha a imagem à esquerda da key */
+}
+
+
+
 
