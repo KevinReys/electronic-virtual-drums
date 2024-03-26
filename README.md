@@ -33,4 +33,4 @@ Ride.wav: Ride cymbal sound.
 Contributions are welcome! Feel free to open issues or submit pull requests for improvements.
 
 ## Author
-This project was developed by Kevin Reys
+This project was developed by Kevin Reys.
